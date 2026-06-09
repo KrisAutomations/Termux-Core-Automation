@@ -1,20 +1,36 @@
-# Termux Core Automation
-
-A collection of advanced Python scripts, automation tools, and system diagnostics developed and deployed within a Termux Linux environment on a Vivo V60 hardware architecture.
-
-## 🛠️ Included Tools
-
-*   **`master_tool.py`** – The main orchestration and control hub for executing automation tasks.
-*   **`scanner.py` & `asset_scanner.py`** – Internal system diagnostics and asset management modules.
-*   **`auditor.py`** – Automated system log checking and internal auditing utility.
-*   **`pundasyon.py`** – Core framework settings and foundational dependencies for the environment.
-
-## 🚀 Environment & Deployment
-
-*   **OS Environment:** Linux via Termux (Android)
-*   **Hardware Profile:** Snapdragon 7 Gen 4 Architecture
-*   **Language:** Python 3.x
-*   **Version Control:** Git & GitHub Cloud Integration
 
 ---
 *Maintained by KrisAutomations.*
+# 🔥 Hello World, I'm KrisAutomations! 👋
+
+An agricultural professional and public servant by day, and a passionate system automation developer by night. Operating from a highly optimized Termux environment, I engineer automated workflows, diagnostic tools, and custom scripts.
+
+---
+
+### 🛠️ Core Tech Stack & Tools
+
+<table>
+  <tr>
+    <td><strong>Languages</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Environment</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+      <img src="https://img.shields.io/badge/Termux-000000?style=for-the-badge&logo=android&logoColor=green" />
+      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+    </td>
+  </tr>
+</table>
+
+### 🚀 Automation Focus Areas
+* 🌐 **System & Network Diagnostics:** Advanced automated environment reporting.
+* 🤖 **Process Automation:** Streamlining repetitive local workflows through Python cores.
+* 📊 **Data Analytics:** Bridging tech insights with localized agricultural data management.
+
+---
+*Driven by efficiency, structured reasoning, and full-depth engineering. Welcome to my automation hub!*
