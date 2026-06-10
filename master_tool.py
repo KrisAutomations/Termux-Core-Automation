@@ -1,4 +1,3 @@
-cat << 'EOF' > master_tool.py
 # -*- coding: utf-8 -*-
 # Framework: Termux Core Automation Hub
 # Version: 1.1.0 - Stable Integrated Deployment
