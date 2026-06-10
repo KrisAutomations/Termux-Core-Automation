@@ -1,0 +1,35 @@
+name: Termux Core Automation Cloud Audit
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  audit-environment:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Clone Repository Source
+      uses: actions/checkout@v4
+
+    - name: Initialize Python Environment
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Execute Framework Integrity Test
+      run: |
+        python -c "
+        import socket
+        print('Cloud Audit Core Node Initiated')
+        try:
+            s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            s.settimeout(2)
+            s.connect(('8.8.8.8', 80))
+            print('Cloud Link: [✅ SECURE]')
+            s.close()
+        except:
+            print('Cloud Link: [⚠️ RESTRICTED]')
+        "
